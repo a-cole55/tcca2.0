@@ -3210,12 +3210,12 @@ html.no-csstransitions .hero-content {
 .testimonial-slider__author {
   min-height: 7.2rem;
   margin-top: 4rem;
-  padding-left: 8.8rem;
+  /* padding-left: 8.8rem; */
   position: relative;
 }
 
 .testimonial-slider__avatar {
-  width: 28rem;
+  width: 24rem;
   height: 30rem;
   border-radius: 5%;
   outline: none;
