@@ -1627,9 +1627,10 @@ input::-moz-focus-inner {
   }
   .section-intro{
     text-align: center;
+    margin-bottom: 9.6rem;
   }
   .section-intro::before {
-    font-size: 11rem;
+    font-size: 7.5rem;
   }
 
 }
