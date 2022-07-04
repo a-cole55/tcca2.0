@@ -1623,6 +1623,10 @@ input::-moz-focus-inner {
 @media screen and (max-width:500px) {
   .display-1 {
     font-size: 4rem;
+    text-align: center;
+  }
+  .section-intro{
+    text-align: center;
   }
   .section-intro::before {
     font-size: 11rem;
@@ -1636,7 +1640,7 @@ input::-moz-focus-inner {
   }
 
   .section-intro::before {
-    font-size: 10rem;
+    font-size: 7.5rem;
   }
 
 }
@@ -3270,6 +3274,7 @@ html.no-csstransitions .hero-content {
   .testimonial-slider__avatar {
     position: static;
     margin-bottom: 2.4rem;
+    margin-left:4.2rem;
   }
 
 }
