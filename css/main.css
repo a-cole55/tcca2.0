@@ -1635,26 +1635,11 @@ input::-moz-focus-inner {
 
 }
 
-@media screen and (max-width:400px) {
-  .section-intro {
-    margin-bottom: 9.6rem;
-  }
-
-  .section-intro::before {
-    font-size: 7.5rem;
-  }
-
-}
 
 @media screen and (max-width:360px) {
   .display-1 {
     font-size: 3.6rem;
   }
-
-  .section-intro::before {
-    font-size: 10rem;
-  }
-
 }
 
 
@@ -3266,7 +3251,7 @@ html.no-csstransitions .hero-content {
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
   .testimonial-slider__author {
     margin: 0;
     padding: 0;
