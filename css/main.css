@@ -1606,14 +1606,20 @@ input::-moz-focus-inner {
 @media screen and (max-width:600px) {
   .subhead {
     font-size: 1.3rem;
+    text-align: left;
   }
 
   .display-1 {
     font-size: 4.2rem;
+    text-align: left;
+  }
+  .improvements{
+    margin-top:0;
   }
 
   .section-intro::before {
     font-size: 12rem;
+    text-align: right;
   }
 
   .right-vert-line {
