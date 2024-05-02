@@ -1631,25 +1631,13 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:500px) {
   .display-1 {
-    font-size: 4rem;
-    text-align: center;
-  }
-  .section-intro{
-    text-align: center;
-    margin-bottom: 9.6rem;
+    font-size: 2rem;
   }
   .section-intro::before {
-    font-size: 7.5rem;
-  }
-
-}
-
-
-@media screen and (max-width:360px) {
-  .display-1 {
-    font-size: 3.6rem;
+    font-size: 5rem;
   }
 }
+
 
 
 
