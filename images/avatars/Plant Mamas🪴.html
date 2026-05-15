@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:5505/profile -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Mamas🪴</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:5505/imgs/favicon-32x32.png">
+    <link href="./Plant Mamas🪴_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="./Plant Mamas🪴_files/bootstrap.bundle.min.js.download" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    
+    <link rel="stylesheet" href="./Plant Mamas🪴_files/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+    <!-- Tailwind css -->
+    <link href="./Plant Mamas🪴_files/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Plant Mamas🪴_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Plant Mamas🪴_files/style.css">
+    <link rel="stylesheet" href="./Plant Mamas🪴_files/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+      <div class="mainNav">
+        <a href="http://localhost:5505/">
+          <div id="homeLogo">
+              <img src="./Plant Mamas🪴_files/small-logo.png" alt="logo" id="logo">
+          </div>
+        </a>
+            <ul>
+              <li><a href="http://localhost:5505/feed">Dashboard</a></li>
+              <li><a href="http://localhost:5505/logout">Logout</a></li>
+            </ul>
+      </div>
+    </nav>
+    </header>
+  
+<div class="profile-container">
+  <div class="row mt-5">
+      <div class="col-6">
+        <div>
+          <h1 class="welcome-message">Welcome test!</h1>
+        </div>
+          <div class="mt-5">
+            <h2>Add Plant</h2>
+            <form action="http://localhost:5505/post/createPost" enctype="multipart/form-data" method="POST">
+              <div class="mb-3">
+                  <label for="name" class="form-label">Official Plant Name</label>
+                  <input type="text" class="form-control" id="name" name="name">
+              </div>
+              <div class="mb-3">
+                <label for="nickname" class="form-label">Nickname</label>
+                <input class="form-control" id="nickname" name="nickname">
+              </div>
+              <div class="mb-3">
+                <label for="imgUpload" class="form-label">Image</label>
+                <input type="file" class="form-control" id="imageUpload" name="file">
+              </div>
+              <div class="mb-3">
+                <label for="datePurchased" class="form-label">Date Purchased</label>
+                <input type="date" class="form-control" id="datePurchased" name="datePurchased">
+              </div>
+              <div class="mb-3">
+                <label for="lightConditions" class="form-label">Light Conditions</label>
+                <!-- <input type="text" class="form-control" id="lightConditions" name="lightConditions"> -->
+                <select name="lightConditions" id="lightConditions" type="text" class="form-control" required="">
+                  <option value="Lots">Lots of Light</option>
+                  <option value="Medium">Medium Light</option>
+                  <option value="Low">Low Light</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="temperature" class="form-label">Temperature</label>
+                <input type="text" class="form-control" id="temperature" name="temperature">
+              </div>
+              <div class="mb-3">
+                <label for="water" class="form-label">Watering Frequency</label>
+                <!-- <input type="text" class="form-control" id="water" name="water"> -->
+                <select name="water" id="water" type="text" class="form-control" required="">
+                  <option value="Daily">Daily</option>
+                  <option value="Weekly">Weekly</option>
+                  <option value="Biweekly">Biweekly</option>
+                  <option value="Monthly">Monthly</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="dateWatered" class="form-label">Date Last Watered</label>
+                <input type="date" class="form-control" id="dateWatered" name="dateWatered">
+              </div>
+              <div class="mb-3">
+                <label for="dateFertilized" class="form-label">Date Last Fertilized</label>
+                <input type="date" class="form-control" id="dateFertilized" name="dateFertilized">
+              </div>
+              <button type="submit" class="btn btn-primary submit" value="Upload">Submit</button>
+            </form>
+          </div>
+      </div>
+      <div class="col-6">
+        <div class="row justify-content-center mt-5 fixed">
+          <a class="btn btn-primary submit" href="http://localhost:5505/feed">Return to Dashboard</a>
+        </div>  
+      </div>  
+    </div>
+  </div>
+
+    <script src="./Plant Mamas🪴_files/bootstrap.bundle.min.js(1).download" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>   
+
+</body></html>
